@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: #EDE9E8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 13px 6px 0px rgba(33,33,33,0.24); 
+    box-shadow: 0px 5px 6px 0px rgba(133, 132, 132, 0.24);
+    position: fixed;
+}
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    cursor: pointer;
+}
+header div a {
+    padding: 2vw;
+    font-family: 'Ultra', serif;
+    cursor: pointer;
+}
+#brigadeiro {
+    color: #8C4637;
+    transition: 0.5s ease-in-out;
+}
+#brigadeiro:hover {
+    transition: 0.5s ease-in-out;
+    color: #378C6D;
+}
+#candys{
+    color: #FDBF00;
+    transition: 0.5s ease-in-out;
+}
+#candys:hover{
+    color:  #ee250a;
+    transition: 0.5s ease-in-out;
+}
+#cupcakes {
+    color:#F279BC;
+    transition: 0.5s ease-in-out;
+}
+#cupcakes:hover {
+    color:#A80AA2;
+    transition: 0.5s ease-in-out;
+}
+#logo-candystore {
+    width: 5vw;  
+}
+span {
+    font-family: 'Ultra', serif;
+    font-size: 6vh;
+    color:#FF5CA8;
+    letter-spacing:0.5vw;
+}
+footer {
+    width: 100vw;
+    height:5vh;
+    -webkit-box-shadow: 0px -13px 6px 0px rgba(33,33,33,0.24); 
+    box-shadow: 0px -5px 6px 0px rgba(133, 132, 132, 0.24);
+    background-color: #EDE9E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p {
+    font-family: 'Bitter', serif;
+    color: black;
+    font-weight: 400;
+}
+/* 
+Parte Não Compartilhada */
+main {
+    width: 100vw;
+    height: 95vh;
+    background-color:  #e7ebec;
+    display: flex;
+    padding-top: 8vw;
+}
+#right-side {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right-side-img {
+    width: 18vw;
+}
+h1 {
+    font-size: 8.5vh;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.5vw;
+    text-align-last: center;
+}
+#left-content{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* //Brigadeiros */
+#main-candy{
+    width: 100vw;
+}
+h2 {
+    font-size: 8.5vh;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.5vw;
+    text-align-last: center;
+    margin-top: 2vw;
+}
+.brigadeiro {
+    width: 8vw;
+    margin: 2vw;
+    margin-top: 6vw;
+}
+/* Candys */
+#main-candys{
+    width: 100vw;
+}
+h4 {
+    font-size: 8.5vh;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.5vw;
+    text-align-last: center;
+    margin-top: 2vw;
+}
+.candys {
+    width: 8vw;
+    margin: 2vw;
+    margin-top: 6vw;
+}
+
+
+/* CupCakes */
+#main-cupcake{
+    width: 100vw;
+}
+h3 {
+    font-size: 8.5vh;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 0.5vw;
+    text-align-last: center;
+    margin-top: 2vw;
+}
+.cupcake {
+    width: 8vw;
+    margin: 2vw;
+    margin-top: 6vw;
+}
